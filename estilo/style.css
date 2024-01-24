@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#C7C7C7;
+    --cor2:#878787;
+    --cor3:#474747;
+    --cor4:#3B3B3B;
+    --cor5:#333333;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:'eletro' ;
+    src: url('ParkeLaneNF.ttf') format('truetype') url('ParkeLaneNF.otf') format(opentype)
+    ;
+}
+
+html,body{
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.297);
+}
+header > h1 {
+    font-family: 'eletro', Times, serif;
+    font-size: 7vw;
+    padding-bottom: 20px;
+}
+header > p {
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+}
+p{
+    color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.conteudo01{
+    color: white;
+    background-image: url(../imagens/caravan-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section.conteudo01 > p{
+    border-radius: 10px 10px 10px 10px ;
+    background-color: #33333367
+}
+section.rare-americans{
+    background-color: #601810;
+   background-image: url(../imagens/rare-americans-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+    
+
+} 
+section.rare-americans > p{
+    background-color: #33333382;
+    line-height: 3em;
+    font-size: 4vw;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px 0px 10px ;
+    box-shadow: 1px 1px 0px 2px ;
+}
+article#cabeça{
+    padding: 60px;
+    font-size: 5vw;
+    font-family: cursive;
+    text-align: center;
+    background-color: #601810;
+    color: white;
+    box-shadow: 1px 2px 1px ;
+}
+.frame{
+    padding-top: 50px;
+    max-width: 1000px;
+    min-width: 400px;
+}
+footer{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5;
+}
+ a:hover{
+    transition: 1.5ms;
+    background-color: white;
+    color: black;
+ }
