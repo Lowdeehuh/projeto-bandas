@@ -44,8 +44,6 @@ p{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px ;
-    padding-right: 30px;
     line-height: 2em;
 }
 section > p {
@@ -94,7 +92,7 @@ article#cabeça{
 .frame{
     padding-top: 50px;
     padding-bottom: 50px;
-    max-width: 1000px;
+    max-width: 4000px;
     min-width: 400px;
 }
 footer{
