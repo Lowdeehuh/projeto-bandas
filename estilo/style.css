@@ -44,7 +44,13 @@ p{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px ;
+    padding-right: 30px;
     line-height: 2em;
+}
+section > p {
+    padding-left: 30px ;
+    padding-right: 30px;
 }
 section.conteudo01{
     color: white;
@@ -60,6 +66,7 @@ section.conteudo01 > p{
 }
 section.rare-americans{
     background-color: #601810;
+    color: white;
    background-image: url(../imagens/rare-americans-background.jpg);
     background-repeat: no-repeat;
     background-size:cover; 
@@ -68,13 +75,12 @@ section.rare-americans{
 
 } 
 section.rare-americans > p{
-    background-color: #33333382;
+    background-color: #33333367;
     line-height: 2em;
     font-size: 4vw;
     padding: 50px;
-    border: 2px solid black;
-    border-radius: 10px 0px 10px ;
-    box-shadow: 1px 1px 0px 2px ;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 1px 1px 0px 2px rgba(0, 0, 0, 0.356) ;
 }
 article#cabeça{
     padding: 60px;
@@ -83,7 +89,7 @@ article#cabeça{
     text-align: center;
     background-color: #601810;
     color: white;
-    box-shadow: 1px 2px 1px ;
+    box-shadow: 1px 2px 1px  rgba(0, 0, 0, 0.67);
 }
 .frame{
     padding-top: 50px;
