@@ -87,6 +87,7 @@ article#cabeça{
 }
 .frame{
     padding-top: 50px;
+    padding-bottom: 50px;
     max-width: 1000px;
     min-width: 400px;
 }
